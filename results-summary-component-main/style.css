@@ -25,6 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
 }
 
 .left-scoreboard h2{
@@ -45,5 +46,21 @@ body{
 }
 
 .score h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
+}
+
+.score p{
+    color: hsl(241, 100%, 89%);
+}
+
+.left-scoreboard .grade{
+    padding-top: 20px ;
+    padding-bottom: 10px;
+}
+
+.left-scoreboard .remarks{
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: hsl(241, 100%, 89%);
 }
