@@ -11,15 +11,19 @@ body{
 }
 
 .container{
-    max-width: 600px;
+    max-width: 800px;
     margin : 0 auto;
     display:flex;
     flex-direction: row;
     align-items: center;
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 20px;
+
 }
 
 .left-scoreboard{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    max-width: 300px;
     text-align: center;
     color: hsl(0, 0%, 100%);
     display: flex;
@@ -64,3 +68,68 @@ body{
     padding-right: 25px;
     color: hsl(241, 100%, 89%);
 }
+
+.right-other-scores {
+    display:flex;
+    flex-direction: column;
+    /* min-width: 300px;  */
+    
+}
+
+.heading{
+    /* padding-bottom:50px; */
+    padding-left: 25px; 
+    font-size: 25px;
+}
+
+.other-scores-1{
+    display:flex;
+    flex-direction: row;
+    background-color: hsl(224, 30%, 27%);
+    padding: 20px;
+    width: 250px;
+    margin : 10px 25px;
+    border-radius: 10px;
+}
+
+.other-scores-2{
+    display:flex;
+    flex-direction: row;
+    background-color: hsl(224, 30%, 27%);
+    padding: 20px;
+    width: 250px;
+    margin : 10px 25px;
+    border-radius: 10px;
+}
+.other-scores-3{
+    display:flex;
+    flex-direction: row;
+    background-color: hsl(224, 30%, 27%);
+    padding: 20px;
+    width: 250px;
+    margin : 10px 25px;
+    border-radius: 10px;
+}
+.other-scores-4{
+    display:flex;
+    flex-direction: row;
+    background-color: hsl(224, 30%, 27%);
+    padding: 20px;
+    width: 250px;
+    margin : 10px 25px;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px 20px;
+    width: 250px;
+    margin : 20px 25px;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* other */
+
+
