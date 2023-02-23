@@ -35,6 +35,7 @@ body{
 .left-scoreboard h2{
     font-size: 22px;
     padding: 20px 0;
+    margin-top: 10px;
     color: hsl(241, 100%, 89%);
 }
 
@@ -79,56 +80,93 @@ body{
 .heading{
     /* padding-bottom:50px; */
     padding-left: 25px; 
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 25px;
+    padding-bottom: 10px;
 }
 
 .other-scores-1{
     display:flex;
     flex-direction: row;
-    background-color: hsl(224, 30%, 27%);
+    background-color: hsla(0, 100%, 67%, 0.2);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
     border-radius: 10px;
+    justify-content: space-between;
+}
+
+.other-score-topic{
+    display: flex;
+    flex-direction: row;
+}
+
+.other-score-topic img{
+    padding-right: 10px;
+}
+
+.other-scores-topic-1{
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
 }
 
 .other-scores-2{
     display:flex;
     flex-direction: row;
-    background-color: hsl(224, 30%, 27%);
+    background-color: hsla(39, 100%, 56%, 0.2);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
     border-radius: 10px;
+    justify-content: space-between;
 }
+
+.other-scores-topic-2{
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+
 .other-scores-3{
     display:flex;
     flex-direction: row;
-    background-color: hsl(224, 30%, 27%);
+    background-color: hsla(166, 100%, 37%, 0.2);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
     border-radius: 10px;
+    justify-content: space-between;
 }
+
+.other-scores-topic-3{
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+
 .other-scores-4{
     display:flex;
     flex-direction: row;
-    background-color: hsl(224, 30%, 27%);
+    background-color: hsla(234, 85%, 45%, 0.2);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
     border-radius: 10px;
+    justify-content: space-between;
+}
+
+.other-scores-topic-4{
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
 }
 
 .button{
-    background-color: hsl(224, 30%, 27%);
-    padding: 15px 20px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 15px 15px;
     width: 250px;
     margin : 30px 25px;
     border-radius: 25px;
     text-align: center;
     justify-content: center;
+    color: white;
 }
 
 /* other */
