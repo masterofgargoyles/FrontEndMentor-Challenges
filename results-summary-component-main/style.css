@@ -8,6 +8,7 @@ body{
     min-height: 100vh;
     display:flex;
     align-items: center;
+    background-color: aliceblue;
 }
 
 .container{
@@ -16,7 +17,7 @@ body{
     display:flex;
     flex-direction: row;
     align-items: center;
-    background-color: hsl(221, 100%, 96%);
+    background-color: white;
     border-radius: 20px;
 
 }
@@ -88,7 +89,7 @@ body{
 .other-scores-1{
     display:flex;
     flex-direction: row;
-    background-color: hsla(0, 100%, 67%, 0.2);
+    background-color: hsla(0, 100%, 67%, 0.081);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
@@ -113,7 +114,7 @@ body{
 .other-scores-2{
     display:flex;
     flex-direction: row;
-    background-color: hsla(39, 100%, 56%, 0.2);
+    background-color: hsla(39, 100%, 56%, 0.081);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
@@ -129,7 +130,7 @@ body{
 .other-scores-3{
     display:flex;
     flex-direction: row;
-    background-color: hsla(166, 100%, 37%, 0.2);
+    background-color: hsla(166, 100%, 37%, 0.081);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
@@ -145,7 +146,7 @@ body{
 .other-scores-4{
     display:flex;
     flex-direction: row;
-    background-color: hsla(234, 85%, 45%, 0.2);
+    background-color: hsla(234, 85%, 45%, 0.081);
     padding: 15px;
     width: 250px;
     margin : 10px 25px;
@@ -158,6 +159,15 @@ body{
     font-weight: 700;
 }
 
+.other-scores-score {
+    color : grey;
+    font-weight: 700;
+}
+
+.other-scores-score b{
+    color : hsl(224, 30%, 27%);
+}
+
 .button{
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     padding: 15px 15px;
@@ -167,6 +177,18 @@ body{
     text-align: center;
     justify-content: center;
     color: white;
+    cursor:pointer;
+}
+
+@media(max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+
+    .left-scoreboard{
+        margin : 0;
+        max-width: 330px;
+    }
 }
 
 /* other */
