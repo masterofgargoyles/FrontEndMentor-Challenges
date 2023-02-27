@@ -16,7 +16,7 @@ body{
     display:flex;
     justify-content: center;
     margin:0 auto;
-    max-width: 700px;
+    max-width: 600px;
     background-color: red;
     min-height:27em;
     border-radius: 20px;
@@ -31,14 +31,48 @@ body{
 .right-hand-side{
     display : flex;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
+    padding : 30px;
 }
 
 .right-hand-side .heading{
     text-transform: uppercase;
     letter-spacing:0.4rem;
-    padding: 20px;
+    /* padding: 20px; */
     font-size: 0.9rem;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-hand-side .product-name{
+    font-family: 'Fraunces', serif;
+    margin-top: 10px;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+
+.right-hand-side p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.right-hand-side .price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.right-hand-side .price h1{
+    padding-right:10px;
+}
+
+.right-hand-side .price h3{
+    text-decoration: line-through;
+    font-size: 0.9rem;
 }
