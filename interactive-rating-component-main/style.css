@@ -1,0 +1,39 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 0.93rem;
+    background-color: hsl(216, 12%, 8%);
+    margin:1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-container , .thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+}
+
+.main-container img{
+    background-color: hsl(213, 19%, 18%);
+}
+
+ul{
+    list-style: none;
+}
