@@ -25,15 +25,83 @@ body{
 }
 
 .main-container , .thank-you {
-    background-color: hsl(213, 19%, 18%);
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsla(214, 11%, 13%, 0.814));
     padding: 1.5rem;
     border-radius: 0.6rem;
+    max-width: 400px;
 }
 
 .main-container img{
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsl(214, 18%, 25%);
+    padding:0.5rem;
+    border-radius: 50%;
 }
 
-ul{
-    list-style: none;
+.main-container h1{
+    margin: 1rem 0 0.5rem;
+    color: white;
 }
+
+.main-container p{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+.main-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 1.7rem;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+/* ul{
+    list-style: none;
+} */
+
+.main-container ul li button{
+    width: 3rem;
+    height:3rem;
+    border-radius: 50%;
+    border:none;
+    color: white;
+    background-color: hsl(214, 18%, 25%);
+    cursor:pointer;
+    padding-top: 0.2rem;
+    transition: 0.3s;
+}
+
+.main-container ul li button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.main-container ul li button:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width:100%;
+    padding: 0.7rem 0 0.7rem;
+    color: white;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+    /* letter-spacing: 0.1rem; */
+}
+
+.btn-submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    /* letter-spacing: 0.1rem; */
+}
+
+
