@@ -7,4 +7,5 @@ const rates = document.querySelectorAll(".btn")
 submitButton.addEventListener("click",()=>{
     thankYouContainer.classList.remove("hidden")
     mainContainer.classList.add("hidden")
-})
+}
+)
