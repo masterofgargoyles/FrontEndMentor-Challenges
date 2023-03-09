@@ -9,3 +9,9 @@ submitButton.addEventListener("click",()=>{
     mainContainer.classList.add("hidden")
 }
 )
+
+rates.forEach((rate)=>{
+    rate.addEventListener("click",()=>{
+        rating.innerHTML = rate.innerHTML
+    })
+})
